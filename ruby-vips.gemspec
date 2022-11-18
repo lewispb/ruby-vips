@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = Vips::VERSION
   spec.summary = "A fast image processing library with low memory needs"
   spec.description = <<-DESC.strip
-    ruby-vips is a binding for the libvips image processing library. It is fast 
+    ruby-vips is a binding for the libvips image processing library. It is fast
     and it can process large images without loading the whole image in memory.
   DESC
   spec.homepage = "http://github.com/libvips/ruby-vips"
@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.0.0"
 
-  spec.add_runtime_dependency "ffi", ["~> 1.12"]
+  spec.add_runtime_dependency "ffi"
 
   spec.add_development_dependency "rake", ["~> 12.0"]
   spec.add_development_dependency "rspec", ["~> 3.3"]
